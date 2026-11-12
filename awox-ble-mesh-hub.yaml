@@ -91,10 +91,9 @@ awox_mesh:
   #   - A4:C1:38:65:AD:22
 
   device_info:
-    # Example device type, see device info in HomeAssistant or MQTT message to find the 'product_id'
-    - product_id: 0x32
-      device_type: RGB
+    - product_id: 0xA6
+      device_type: WHITE_TEMP
       manufacturer: EGLO
-      name: Spot 120
-      model: EGLOSpot 120/w
-      icon: mdi:wall-sconce-flat
+      name: EGLO Tunable White
+      model: EGLO AwoX Tunable White
+      icon: mdi:lightbulb
